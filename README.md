@@ -6,7 +6,7 @@ Write a function that takes unknown amount of numbers and returns their sum. The
 
 ## Question 2.
 Write a function convertKeysToUpperCase(obj) that takes an object obj as input and returns a new object where all keys are converted to uppercase. The function should recursively traverse the object and convert keys to uppercase at every level
-```json
+```javascript
 input : const obj = {
   username: 'abc',
   email: 'abc@gmail.com',
