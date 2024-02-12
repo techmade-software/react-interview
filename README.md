@@ -4,9 +4,33 @@
 
 Write a function that takes unknown amount of numbers and returns their sum. The amount of numbers ranges from 1 to 10
 
+## Question 2.
+Write a function convertKeysToUpperCase(obj) that takes an object obj as input and returns a new object where all keys are converted to uppercase. The function should recursively traverse the object and convert keys to uppercase at every level
+```json
+input : const obj = {
+  username: 'abc',
+  email: 'abc@gmail.com',
+  address: {
+    street: '12',
+    city: 'lahore',
+    zip: '11052'
+  }
+};
+
+output : {
+  USERNAME: 'abc',
+  EMAIL: 'abc@gmail.com',
+  ADDRESS: {
+    STREET: '12',
+    CITY: 'lahore',
+    ZIP: '11052'
+  }
+}
+```
+
 # Statement
 
-## Question 2.
+## Question 3.
 
 1. Write a component that fetches data from the API and lists all the items on the DOM. Also, implement filtering based on categories present in the data and sort it based on price.
 2. Filter component should be responsible for filtering the data.
